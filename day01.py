@@ -62,5 +62,5 @@ def test_increases3(input, expected: int) -> None:
 if __name__ == "__main__":
 
     f = Path("input01.txt").read_text().strip().splitlines()
-    print(increases([int(x) for x in f]))
-    print(increases3([int(x) for x in f]))
+    print(increases([int(x) for x in f]))  # 1759
+    print(increases3([int(x) for x in f]))  # 1805
